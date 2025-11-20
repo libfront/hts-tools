@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>JSON Beautifier Logo - Clear &amp; Professional</title>
+  <defs>
+    <!-- Corporate Gradient for the main curly braces (Deep Blue to Cyan/Teal) -->
+    <linearGradient id="braceGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" /> <!-- Deep Corporate Blue -->
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" /> <!-- Cyan/Teal -->
+    </linearGradient>
+  </defs>
+
+  <!-- Left Curly Brace (Path) -->
+  <path 
+    d="M 55 20 C 30 40, 40 70, 70 100 C 40 130, 30 160, 55 180"
+    fill="none" 
+    stroke="url(#braceGradient)" 
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+
+  <!-- Right Curly Brace (Path) -->
+  <path 
+    d="M 145 20 C 170 40, 160 70, 130 100 C 160 130, 170 160, 145 180"
+    fill="none" 
+    stroke="url(#braceGradient)" 
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+
+  <!-- Inner Beautified JSON Structure (Simplified for instant clarity) -->
+  
+  <!-- Line 1: Main Structure / Key -->
+  <rect x="70" y="75" width="60" height="10" rx="3" fill="#3B82F6" />
+
+  <!-- Line 2: Indented Content / Value -->
+  <rect x="85" y="100" width="40" height="10" rx="3" fill="#93C5FD" />
+
+  <!-- Line 3: Closing Structure / Parent Key -->
+  <rect x="70" y="125" width="60" height="10" rx="3" fill="#3B82F6" />
+</svg>

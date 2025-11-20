@@ -1,0 +1,46 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>SSL Checker Logo - Secure Padlock Validation</title>
+  <defs>
+    <!-- Gradient for the Lock (Green/Blue for Secure Trust) -->
+    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" /> <!-- Secure Emerald Green -->
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" /> <!-- Trust Corporate Blue -->
+    </linearGradient>
+    <!-- Validation Ring Color (Subtle Green Glow for "Good" Status) -->
+    <radialGradient id="ringGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#A7F3D0;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:0.0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Validation Pulse Ring (Dynamic, secure check indicator) -->
+  <circle cx="100" cy="110" r="70" fill="url(#ringGradient)" opacity="0.6"/>
+
+  <!-- The Padlock Body -->
+  <rect x="55" y="90" width="90" height="70" rx="15" fill="url(#lockGradient)" />
+  
+  <!-- Lock Keyhole/Detail (White Circle) -->
+  <circle cx="100" cy="125" r="8" fill="#FFFFFF" opacity="0.9" />
+
+  <!-- Lock Shackle (Top Arc) -->
+  <path 
+    d="M 65 90 V 60 C 65 40, 135 40, 135 60 V 90" 
+    fill="none" 
+    stroke="url(#lockGradient)" 
+    stroke-width="15" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Checkmark Icon (Subtle indication of "checked" status) -->
+  <!-- This is intentionally subtle, as the padlock and green color are the main focus -->
+  <path 
+    d="M 80 120 L 95 135 L 125 95" 
+    fill="none" 
+    stroke="#1C1C1C" 
+    stroke-width="6" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    opacity="0.15"
+  />
+
+</svg>

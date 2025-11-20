@@ -1,0 +1,39 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>UUID Generator Logo - Structured Emission</title>
+  <defs>
+    <!-- Primary Gradient (Deep Tech Blue) for the source block -->
+    <linearGradient id="sourceGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" /> <!-- Blue -->
+      <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:1" /> <!-- Indigo -->
+    </linearGradient>
+    <!-- Accent Color (Lighter/Cyan) for the generated segments -->
+    <linearGradient id="segmentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Central Source Block (Represents the generation algorithm/randomness source) -->
+  <rect x="75" y="75" width="50" height="50" rx="10" fill="url(#sourceGradient)" />
+
+  <!-- The "UUID" Segments being generated/emitted. Uses stroke-dasharray to convey the segmented structure (e.g., 8-4-4-4-12) -->
+  <g stroke-width="6" stroke-linecap="round" stroke="url(#segmentGradient)">
+    
+    <!-- Top-Right Segment (Complex structure implied) -->
+    <line x1="125" y1="75" x2="175" y2="25" stroke-dasharray="10 5 10 5 10" />
+
+    <!-- Bottom-Right Segment -->
+    <line x1="125" y1="125" x2="175" y2="175" stroke-dasharray="15 5 10" />
+
+    <!-- Top-Left Segment (Simple structure implied) -->
+    <line x1="75" y1="75" x2="25" y2="25" stroke-dasharray="25 5" />
+
+    <!-- Bottom-Left Segment -->
+    <line x1="75" y1="125" x2="25" y2="175" stroke-dasharray="10 5 10 5" />
+    
+  </g>
+  
+  <!-- Subtle inner detail (Hash symbol for randomness/uniqueness) -->
+  <text x="100" y="105" text-anchor="middle" font-size="20" font-family="sans-serif" font-weight="bold" fill="#F3F4F6">#</text>
+
+</svg>

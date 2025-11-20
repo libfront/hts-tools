@@ -1,0 +1,71 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>RSA Key Generator Logo - Dual Key Cryptography</title>
+  <defs>
+    <!-- Central Algorithm/Source Gradient (Deep, reliable technology) -->
+    <linearGradient id="sourceGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" /> <!-- Dark Gray/Black -->
+      <stop offset="100%" style="stop-color:#4B5563;stop-opacity:1" /> <!-- Slate Gray -->
+    </linearGradient>
+    
+    <!-- Private Key Gradient (Secure, hidden - Purple/Indigo) -->
+    <linearGradient id="privateKeyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" /> <!-- Indigo (Secure/Private) -->
+      <stop offset="100%" style="stop-color:#A855F7;stop-opacity:1" /> <!-- Violet -->
+    </linearGradient>
+    
+    <!-- Public Key Gradient (Open, visible - Gold/Yellow) -->
+    <linearGradient id="publicKeyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" /> <!-- Amber (Public/Shared) -->
+      <stop offset="100%" style="stop-color:#FBBF24;stop-opacity:1" /> <!-- Gold -->
+    </linearGradient>
+  </defs>
+
+  <!-- Central Source Block (The RSA Algorithm Core) -->
+  <rect x="85" y="85" width="30" height="30" rx="5" fill="url(#sourceGradient)" />
+
+  <!-- Private Key (Bottom Path - Representing the unique, secure key) -->
+  <path 
+    d="M 115 100 
+       L 150 140 
+       L 170 140 
+       C 175 120, 160 110, 150 110" 
+    fill="none" 
+    stroke="url(#privateKeyGradient)" 
+    stroke-width="8" 
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Public Key (Top Path - Representing the complementary, sharable key) -->
+  <path 
+    d="M 115 100 
+       L 150 60 
+       L 170 60 
+       C 175 80, 160 90, 150 90" 
+    fill="none" 
+    stroke="url(#publicKeyGradient)" 
+    stroke-width="8" 
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Connection/Generation Line (Showing the process starts from the left) -->
+  <path 
+    d="M 85 100 L 40 100" 
+    fill="none" 
+    stroke="#D1D5DB" 
+    stroke-width="6" 
+    stroke-linecap="round"
+  />
+  
+  <!-- Private Key Lock Bit (Detail on the private path) -->
+  <polygon 
+    points="135,120 145,120 150,130 145,140 135,140 130,130" 
+    fill="#4F46E5" 
+    transform="rotate(-20 135 130)"
+  />
+  
+  <!-- Public Key Lock Bit (Detail on the public path) -->
+  <rect x="135" y="65" width="10" height="10" rx="2" fill="#FBBF24" transform="rotate(20 140 70)"/>
+
+</svg>

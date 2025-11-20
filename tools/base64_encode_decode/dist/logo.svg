@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>Base64 Encoder/Decoder Logo</title>
+  <defs>
+    <!-- Professional Gradient for the conversion process (Blue to Emerald Green) -->
+    <linearGradient id="processGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" /> <!-- Primary Blue -->
+      <stop offset="100%" style="stop-color:#10B981;stop-opacity:1" /> <!-- Emerald Green -->
+    </linearGradient>
+  </defs>
+
+  <!-- Left Side: Represents Raw/Binary Data (A solid, complex block) -->
+  <rect x="25" y="65" width="30" height="70" rx="5" fill="#4B5563" />
+  
+  <!-- Right Side: Represents Encoded/Text Data (Tidy, uniform lines) -->
+  <rect x="145" y="65" width="30" height="10" rx="2" fill="#9CA3AF" />
+  <rect x="145" y="85" width="30" height="10" rx="2" fill="#9CA3AF" />
+  <rect x="145" y="105" width="30" height="10" rx="2" fill="#9CA3AF" />
+  <rect x="145" y="125" width="30" height="10" rx="2" fill="#9CA3AF" />
+  
+  <!-- Center: The Encoding/Decoding Process (Double-headed Conversion Arrow) -->
+  <path 
+    d="M 65 100 L 80 85 L 80 95 L 120 95 L 120 85 L 135 100 L 120 115 L 120 105 L 80 105 L 80 115 Z"
+    fill="url(#processGradient)"
+  />
+</svg>
