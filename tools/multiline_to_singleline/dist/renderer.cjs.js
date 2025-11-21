@@ -178,7 +178,10 @@
               
             </div>
           </div>
-          `,style:(()=>{let o="";return o=`
+          `,head:`
+        <title>Online Multiline to Singleline Converter - Text/XML/JSON</title>
+        <meta name="description" content="Convert your multiline text into a single line instantly. Perfect for code, JSON, URLs, and more.">
+        `,style:(()=>{let o="";return o=`
           
           
           .${t.f.name("text")} {
