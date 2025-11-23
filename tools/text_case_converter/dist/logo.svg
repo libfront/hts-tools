@@ -1,0 +1,57 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>Text Case Converter Logo - Transformation Arrow</title>
+  <defs>
+    <!-- Primary Gradient (Professional Blue/Cyan) -->
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" /> <!-- Deep Blue -->
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" /> <!-- Cyan -->
+    </linearGradient>
+    <!-- Secondary Gradient (Muted Gray/Black for input/output distinction) -->
+    <linearGradient id="secondaryGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9CA3AF;stop-opacity:1" /> <!-- Medium Gray -->
+      <stop offset="100%" style="stop-color:#4B5563;stop-opacity:1" /> <!-- Dark Gray -->
+    </linearGradient>
+  </defs>
+
+  <!-- Input Block (Left - Represents the initial state, e.g., lowercase) -->
+  <rect x="25" y="75" width="50" height="50" rx="8" fill="url(#secondaryGradient)" opacity="0.8"/>
+  
+  <!-- Output Block (Right - Represents the converted state, e.g., uppercase) -->
+  <rect x="125" y="75" width="50" height="50" rx="8" fill="url(#mainGradient)" opacity="1"/>
+
+  <!-- Transformation Chevron (Center - The dual-directional conversion process) -->
+  <path 
+    d="M 75 100 
+       L 125 100 
+       L 115 90 
+       M 125 100 
+       L 115 110" 
+    fill="none" 
+    stroke="url(#mainGradient)" 
+    stroke-width="6" 
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Reverse Transformation Path (Indicating bidirectional conversion is possible) -->
+  <path 
+    d="M 125 100 
+       L 75 100 
+       L 85 90 
+       M 75 100 
+       L 85 110" 
+    fill="none" 
+    stroke="url(#secondaryGradient)" 
+    stroke-width="3" 
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.6"
+  />
+
+  <!-- Subtle 'a' (Lowercase) detail on Input Block -->
+  <text x="50" y="110" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" font-weight="bold" fill="#F3F4F6">a</text>
+
+  <!-- Subtle 'A' (Uppercase) detail on Output Block -->
+  <text x="150" y="110" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">A</text>
+
+</svg>
